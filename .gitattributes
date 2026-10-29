@@ -6,3 +6,11 @@
 
 # Preserve whitespace in original upstream licensing texts.
 licenses/npm-runtime-notices.txt whitespace=-blank-at-eol
+
+# FAB-632 archive on branch racho-backup: keep these files byte for byte (no EOL conversion).
+/rea-agents-6.8.0.tgz -text
+/rea-agents-6.8.0.tgz.sha256 -text
+/install-rea.ps1 -text
+/Backup-ClaudeHome.ps1 -text
+/skills/rea-pravilo/SKILL.md -text
+/README-BACKUP.md -text
